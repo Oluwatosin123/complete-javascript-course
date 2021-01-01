@@ -85,15 +85,26 @@
 // let isPpulation = 50000000; 
 // let isIsland = false
 
-let isLanguage = 'English';
-let isPpulation = 200000000; 
-let isIsland = false
+// let isLanguage = 'English';
+// let isPpulation = 200000000; 
+// let isIsland = false
 
-let isLanguage = 'English';
-let isPpulation = 24000000; 
-let isIsland = false
+// let isLanguage = 'English';
+// let isPpulation = 24000000; 
+// let isIsland = false
 
 // if (isLanguage === isLanguage &&  ) {
 
 // }
 /* ///////////////////////// */
+
+const tosin = {
+    name: 'tosin',
+    age: 45,
+    height: 456,
+    mass: function () {
+      let result = this.height - this.age;
+      return result;
+    }
+}
+console.table(tosin)
